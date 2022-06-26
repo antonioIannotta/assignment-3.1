@@ -22,7 +22,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:30.1.1-jre")
-    implementation("com.typesafe.akka:akka-cluster-typed_3:2.6.19")
+    implementation("com.typesafe.akka:akka-actor-typed_2.13:2.6.19")
 }
 
 application {
